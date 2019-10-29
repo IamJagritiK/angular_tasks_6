@@ -1,0 +1,6 @@
+<p>scenario3 works!</p>
+<h2>Scenario 3</h2>
+<input #myInput type="text/">
+<button (click)="send(myInput.value)">Display on child</button>
+
+<app-scenario3-child [parentData]= "childMessage"></app-scenario3-child>
